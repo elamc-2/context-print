@@ -7,4 +7,7 @@ updates:
     rebase-strategy: disabled
     commit-message:
       prefix: "npm"
+    ignore:
+      - dependency-name: typescript
+      - dependency-name: eslint
 
